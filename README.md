@@ -72,7 +72,12 @@ L'application doit permettre les fonctionnalités suivantes :
 
      2)  puis faire ajouter dans la balise html cette : ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/5a3b7e0b-94da-4736-b6b6-bc76ed9c6d04)
 
-   - On a utlisé la composition et l'héritage de templates et pour le faire il suffit de faire ajouter l'attribue suivant dans le tag html ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/eef5769b-d60a-4c23-8912-420221515bc6) dans la templte qui va etre herite par d'autre template (dans notre cas on a essayer de l'uliliser dans la page template1.html) , ensuite en ajoute dans n'importe qui page qui va heriter  la page  template1.html par exemple le code suivant  : ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/efea0e5f-cc45-4a46-83fa-0e7d74c16ad6)
+   - On a utlisé la composition et l'héritage de templates et pour le faire il suffit de faire ajouter l'attribue suivant dans le tag html  :
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/eef5769b-d60a-4c23-8912-420221515bc6)
+     dans la templte qui va etre herite par d'autre template (dans notre cas on a essayer de l'uliliser dans la page template1.html) ,
+
+     ensuite en ajoute dans n'importe qui page qui va heriter  la page  template1.html par exemple le code suivant  :
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/efea0e5f-cc45-4a46-83fa-0e7d74c16ad6)
 
 
 
