@@ -150,6 +150,3 @@ dans le cas d'utlisation de la maniere  UserDetails Service , au plus de cette c
      Exemple d'utlisation dans le main : 
    ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/5e66fa65-8632-4d98-81b9-af6e493ea494)
 
-
-![image](https://github.com/ayoubbenlahcen/ayoubbenlahcen-ayoubbenlahcen-SD_MIAAD_FSM_TP2_2024/assets/152870306/42b38f71-9d05-47fd-b0cf-e76aa2a959cf)
-
