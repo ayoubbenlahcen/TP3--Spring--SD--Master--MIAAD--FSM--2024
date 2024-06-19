@@ -108,13 +108,46 @@ concentrons-nous sur les trois méthodes spécifiques d'authentification avec Sp
 
 ### 3.3.1 en utilisant InMemomy Authentication:
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/4ed5e404-16eb-424f-bda0-e0e92b4beb33)
+Exemple d'utlisation dans le main : 
 
 ### 3.3.2 en utilisant JDBC Authentication :
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/d82a41e7-f185-4b88-9130-fb07303ccf21)
 En est besoin dans cette partie de faire creer un fichier schema.sql  qui va contenir la creation des deux tables users et authorities en utlisant le langage MariaDialect voici quoi ce fichier va contenir :
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/143b2ae4-3b94-4436-acfa-45a52c1def53)
+Exemple d'utlisation dans le main : 
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/6fd574a9-d05a-4e89-bde8-d5478fdea877)
+
 #### Remarque  : 
    - Il faut faire une petit modefication dans le fichier application.proprties ci en veut que la secrite avec JDBC  Authentication reussite , c'est que il faut mettre spring.jpa.hibernate.ddl-auto=none
-     
+
 ### 3.3.3 en utilisant UserDetails Service :
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/d44f1ad6-1031-4ffe-bb35-66aebbf8dfcd)
+
+dans le cas d'utlisation de la maniere  UserDetails Service , au plus de cette configuration on est besoin de creer les entites users et roles avec les defferent repository correspande a chaque entité et aussi le service Voici comment on va faire ça :
+   - Une UserDetailServiceImpl  pour faire le load des information d'un user   : 
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/d76da3e0-866c-4337-96e4-bf330e55bd32)
+     
+   - Une entite AppUser  :
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/0143285e-b1d0-4793-af69-44eac9a5bf35)
+     
+   - Une entite AppRole  :
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/0b93c1f9-eb77-4f2b-83b6-9b824f35b000)
+
+   -   AppRoleRepository : 
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/3b0c0bf7-a378-4b60-8fef-e701653b6bd4)
+
+   -   AppUserRepository : 
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/1ae81c77-0739-4b49-bb28-40c814214d63)
+
+   -   Une interface AccountService : 
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/d66bbb7e-9251-4a26-8616-2e0d71c2400e)
+
+   -   AccountServiceImpl qui va implementer AccountService : 
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/d59edc9d-ba00-429b-a0ca-2f685739bac0)
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/07927933-ea48-4dbd-a8d0-a81e97fd6fbc)
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/0b6de095-48c6-49c4-bf6b-f05efee710d8)
+
+     Exemple d'utlisation dans le main : 
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/5e66fa65-8632-4d98-81b9-af6e493ea494)
+
+
