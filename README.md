@@ -60,6 +60,7 @@ L'application doit permettre les fonctionnalités suivantes :
 #### remarque : ==========================================================================================================
    - dans tous ces templates on  a utliser bootstrap pour faire le css alors pour avoir l'utiliser il faut :
      1- ajouter la dependance  suivant dans le fichier pom.xml :
+     
      ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/a72a82dd-e904-4a28-8b23-c899cd06f52f)
 
      puis faire les liens suivantes dans les pages html pour l'utiliser :
