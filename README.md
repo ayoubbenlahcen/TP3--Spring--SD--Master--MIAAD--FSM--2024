@@ -24,6 +24,7 @@ L'application doit permettre les fonctionnalités suivantes :
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/1e3018b3-6370-4281-8aa9-d4f0900c10c5)
 
 ### 1.2.3 Création des contrôleurs
+#### La creation du Patient controller : 
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/41f4a6c4-9098-4cab-ba5f-032c9018a222)
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/90fc7c9b-bbec-4c1e-974e-610e009a9371)
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/19db2825-b852-4a12-94e0-bdfee9f6431f)
