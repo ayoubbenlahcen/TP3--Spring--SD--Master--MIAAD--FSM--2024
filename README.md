@@ -90,14 +90,15 @@ L'application doit permettre les fonctionnalités suivantes :
 Alors dans ce cas on va essayer de faire ca seulment pour la formulaire d'ajoute d'un patient : 
 ##### 1. faire la creation de la page html pour notre fomulaire correspand a l'ajoute d'un patient :
          - Comme on fait precidament (voir la template de formPatient.html)  :
-##### 2. en suite en est besoin d'un controlleur  pour cette page qui va etre comme suite :
+##### 2. En suite en est besoin d'un controlleur  pour faire le redirection vers cette page tel que il faut instancier un objet de type Patient puis l'ajouter dans le model  Voici un exemple de ce controllleur :
+      Voici la sinification de quelque notation utliser dans cette partie
       - @GetMapping(path = "/editPatient") : c'est pour spcifier le mot que je dois ecrire dans l'URL pour lancer ce controlleur
       - @PreAuthorize("hasRole('ROLE_ADMIN')") : ca lie a la partie securite on va parler sur ca plutart mais on peut dire que il ets utliser pour dier que ce lui ne peut etre executer seulment si l'utilisateur est un Admin
    
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/23944d02-b7b0-4493-90a9-a7fc396739c2)
 
-##### 3. faire la creation de la page html pour notre fomulaire correspand a l'ajoute d'un patient :
-
+##### 3. En  suite en est besoin de faire creer un autre controlleur pour faire la validation ou bien  le sauvegarde d'un patient  dans la base de donnée Voici un exemple  pour faire ça :
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/9b00dd15-0a14-4e78-a36e-1e6aaea8ae97)
 
 
 ## Partie  3 : Sécurité avec Spring security  :
