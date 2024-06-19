@@ -16,6 +16,9 @@ L'application doit permettre les fonctionnalités suivantes :
 ## 1.1 Configuration du projet
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/06f4f174-8321-4a83-89ff-831e1d0dffe6)
 
+### 1.1.1 La configuration du fichier application.properties : 
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/05deab0e-0cce-4010-bd66-9ce99d8c0664)
+
 ## 1.2 Gestion des patients
 ### 1.2.1 Création de l'entité Patient
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/64ef38ff-378e-4a51-a56e-c1938e8ff1ad)
@@ -29,12 +32,29 @@ L'application doit permettre les fonctionnalités suivantes :
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/90fc7c9b-bbec-4c1e-974e-610e009a9371)
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/19db2825-b852-4a12-94e0-bdfee9f6431f)
 
-
-### 1.2.4 Création des vues Thymeleaf
-
 ## Partie 2  : 
-### 2.1 Créer une page template
-/// imgages
+### 2.1 Créer des pages page templates : 
+   - EditPatient.html
+
+   - formePatients.html
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/611ef21b-c40a-4d72-af28-5fbfc370c572)
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/7b13ba9a-3da2-45a0-9632-2e24a9c2c571)
+
+   - login.html
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/796bf4f5-2a0f-4fa7-8fb7-280b4586e62d)
+
+   - notAuthorized.html
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/1d011e17-e169-45b2-aec4-4d660358309f)
+   - patients.html
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/f890581f-df0b-44d9-a225-9fa5303200a3)
+
+   - profile.html
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/209c4c5a-9b57-4bff-af19-50ff4430e178)
+
+   - template1.html
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/a82ad37e-bd78-47e0-9c30-9f0e7092b6f6)
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/8c00507f-9561-4e33-9894-8c1ab21f2f65)
+
 ### 2.2 Faire la validation des formulaires
 /// imgages
 
