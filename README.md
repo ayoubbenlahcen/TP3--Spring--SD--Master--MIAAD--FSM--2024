@@ -35,6 +35,8 @@ L'application doit permettre les fonctionnalités suivantes :
 ## Partie 2  : 
 ### 2.1 Créer des pages page templates : 
    - EditPatient.html
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/d871620e-2dcb-4fd9-9623-c3fe985452d3)
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/ac736609-4402-430f-9a01-d5290d99c487)
 
    - formePatients.html
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/611ef21b-c40a-4d72-af28-5fbfc370c572)
@@ -54,6 +56,15 @@ L'application doit permettre les fonctionnalités suivantes :
    - template1.html
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/a82ad37e-bd78-47e0-9c30-9f0e7092b6f6)
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/8c00507f-9561-4e33-9894-8c1ab21f2f65)
+
+#### remarque : ==========================================================================================================
+   - dans tous ces templates on  a utliser bootstrap pour faire le css alors pour avoir l'utiliser il faut :
+     1- ajouter la dependance  suivant dans le fichier pom.xml :
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/a72a82dd-e904-4a28-8b23-c899cd06f52f)
+
+     puis faire les liens suivantes dans les pages html pour l'utiliser :
+     ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/f0ac5e0a-9b83-474a-97c2-45e195a9d00a)
+
 
 ### 2.2 Faire la validation des formulaires
 /// imgages
