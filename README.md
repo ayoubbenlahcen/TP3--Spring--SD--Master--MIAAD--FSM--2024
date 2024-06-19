@@ -81,17 +81,12 @@ L'application doit permettre les fonctionnalités suivantes :
 
 
 
-
-
-
- 
-
 ### 2.2 Faire la validation des formulaires: 
 Alors dans ce cas on va essayer de faire ca seulment pour la formulaire d'ajoute d'un patient : 
 ##### 1. faire la creation de la page html pour notre fomulaire correspand a l'ajoute d'un patient :
          - Comme on fait precidament (voir la template de formPatient.html)  :
 ##### 2. En suite en est besoin d'un controlleur  pour faire le redirection vers cette page tel que il faut instancier un objet de type Patient puis l'ajouter dans le model  Voici un exemple de ce controllleur :
-      Voici la sinification de quelque notation utliser dans cette partie
+      Voici la signification de quelque notations utliser dans cette partie :
       - @GetMapping(path = "/editPatient") : c'est pour spcifier le mot que je dois ecrire dans l'URL pour lancer ce controlleur
       - @PreAuthorize("hasRole('ROLE_ADMIN')") : ca lie a la partie securite on va parler sur ca plutart mais on peut dire que il ets utliser pour dier que ce lui ne peut etre executer seulment si l'utilisateur est un Admin
    
@@ -102,8 +97,24 @@ Alors dans ce cas on va essayer de faire ca seulment pour la formulaire d'ajoute
 
 
 ## Partie  3 : Sécurité avec Spring security  :
-### 3.1 en utilisant InMemomy Authentication:
-///: images
-### 3.2 en utilisant JDBC Authentication :
-/// images
-### 3.3 en utilisant UserDetails Service :
+Alors Spring Security est un sous-projet du framework Spring qui se concentre sur la fourniture de l'authentification et de l'autorisation pour les applications Java. Il est conçu pour sécuriser les applications web et les services RESTful, en intégrant facilement des mécanismes de sécurité robustes.
+concentrons-nous sur les trois méthodes spécifiques d'authentification avec Spring Security :
+
+### 3.1. premierement il faaut ajouter la dependance suivant dans notre fichier pom.xml : 
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/777017bc-301c-4428-964a-0ca13feeab61)
+### 3.2. faire creer un package pour la securité quand on va appeller par exemple security : 
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/0f32f147-5d40-40d3-9737-446e11e1f065)
+### 3.3.  a besoin  de cerrier un fichier de configuration qui quand on va appeler SecurtyConfig afin de choisir qu'il methode quand on veut utiliser poue securiser notre application voici ces methode là :
+
+### 3.3.1 en utilisant InMemomy Authentication:
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/4ed5e404-16eb-424f-bda0-e0e92b4beb33)
+
+### 3.3.2 en utilisant JDBC Authentication :
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/d82a41e7-f185-4b88-9130-fb07303ccf21)
+En est besoin dans cette partie de faire creer un fichier schema.sql  qui va contenir la creation des deux tables users et authorities en utlisant le langage MariaDialect voici quoi ce fichier va contenir :
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/143b2ae4-3b94-4436-acfa-45a52c1def53)
+#### Remarque  : 
+   - Il faut faire une petit modefication dans le fichier application.proprties ci en veut que la secrite avec JDBC  Authentication reussite , c'est que il faut mettre spring.jpa.hibernate.ddl-auto=none
+     
+### 3.3.3 en utilisant UserDetails Service :
+![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/d44f1ad6-1031-4ffe-bb35-66aebbf8dfcd)
