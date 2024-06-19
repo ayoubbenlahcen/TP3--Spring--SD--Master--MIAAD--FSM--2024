@@ -58,7 +58,7 @@ L'application doit permettre les fonctionnalités suivantes :
 ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/8c00507f-9561-4e33-9894-8c1ab21f2f65)
 
 #### remarque : ==========================================================================================================
-   - dans tous ces templates on  a utliser bootstrap pour faire le css alors pour avoir l'utiliser il faut :
+   - dans tous ces templates on  a utlise bootstrap pour faire le css alors pour avoir l'utiliser il faut :
      1- ajouter la dependance  suivant dans le fichier pom.xml :
      
      ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/a72a82dd-e904-4a28-8b23-c899cd06f52f)
@@ -66,6 +66,20 @@ L'application doit permettre les fonctionnalités suivantes :
      puis faire les liens suivantes dans les pages html pour l'utiliser :
      ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/f0ac5e0a-9b83-474a-97c2-45e195a9d00a)
 
+   - dans tous ces templates on  a utliser Thymeleaf qui est un moteur de template Java utilisé pour générer des vues dans les applications web basées sur Java, Voici comment on peut l'utilisé :
+     1) Ajouter la dependance suivant  :
+       ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/37c1815c-ce55-4abb-ab0f-f9a896de28f1)
+
+     2)  puis faire ajouter dans la balise html cette : ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/5a3b7e0b-94da-4736-b6b6-bc76ed9c6d04)
+
+   - On a utlisé la composition et l'héritage de templates et pour le faire il suffit de faire ajouter l'attribue suivant dans le tag html ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/eef5769b-d60a-4c23-8912-420221515bc6) dans la templte qui va etre herite par d'autre template (dans notre cas on a essayer de l'uliliser dans la page template1.html) , ensuite en ajoute dans n'importe qui page qui va heriter  la page  template1.html par exemple le code suivant  : ![image](https://github.com/ayoubbenlahcen/TP3--Spring--SD--Master--MIAAD--FSM--2024/assets/152870306/efea0e5f-cc45-4a46-83fa-0e7d74c16ad6)
+
+
+
+
+
+
+ 
 
 ### 2.2 Faire la validation des formulaires
 /// imgages
